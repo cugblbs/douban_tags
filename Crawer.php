@@ -74,7 +74,7 @@ class Crawer {
         if( isset($url_info["port"])) {
             $base_url .= ":".$url_info["port"];
         }
-        $base_url .= $url_info["path"];
+        isset($url_info["path"]) && $base_url .= $url_info["path"];
         if(is_array($url_list)){
             foreach ($url_list as $url_item) {
                 if(preg_match('/^http/',$url_item)){
