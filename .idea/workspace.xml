@@ -21,11 +21,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Crawer.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Crawer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Crawer/Crawer.php">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="149">
+              <caret line="107" column="36" selection-start-line="107" selection-start-column="30" selection-end-line="107" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Douban.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Crawer/Model/Douban.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Xueqiu.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Crawer/Model/Xueqiu.php">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
-              <caret line="70" column="69" selection-start-line="70" selection-start-column="69" selection-end-line="70" selection-end-column="69" />
+              <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Abstract.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Crawer/Model/Abstract.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Config.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../Crawer/Config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -34,18 +74,8 @@
       <file leaf-file-name="simple_html_dom_utility.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Crawer/simple_html_dom/example/simple_html_dom_utility.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="simple_html_dom.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Crawer/simple_html_dom/simple_html_dom.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7762">
-              <caret line="1112" column="80" selection-start-line="1112" selection-start-column="77" selection-end-line="1112" selection-end-column="80" />
+            <state relative-caret-position="18">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -84,18 +114,8 @@
       <file leaf-file-name="Header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Crawer/Header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Http.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Crawer/Http.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+            <state relative-caret-position="14">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="20" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -107,9 +127,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/../Crawer/crawer.php" />
-        <option value="$PROJECT_DIR$/../Crawer/Header.php" />
         <option value="$PROJECT_DIR$/../Crawer/Http.php" />
         <option value="$PROJECT_DIR$/../Crawer/simple_html_dom/app/index.php" />
+        <option value="$PROJECT_DIR$/../Crawer/Header.php" />
+        <option value="$PROJECT_DIR$/../Crawer/Config.php" />
+        <option value="$PROJECT_DIR$/../Crawer/Model/Xueqiu.php" />
+        <option value="$PROJECT_DIR$/../Crawer/Model/Abstract.php" />
+        <option value="$PROJECT_DIR$/../Crawer/Model/Douban.php" />
         <option value="$PROJECT_DIR$/../Crawer/Crawer.php" />
       </list>
     </option>
@@ -234,12 +258,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1488168446564</updated>
-      <workItem from="1488168448791" duration="15188000" />
+      <workItem from="1488168448791" duration="18486000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15188000" />
+    <option name="totallyTimeSpent" value="18486000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="0" />
@@ -304,14 +328,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Crawer/Header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Crawer/Http.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -328,14 +344,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Crawer/simple_html_dom/example/simple_html_dom_utility.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Crawer/simple_html_dom/example/example_basic_selector.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -348,14 +356,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="30" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Crawer/simple_html_dom/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -417,6 +417,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../Crawer/config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Crawer/simple_html_dom/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../Crawer/simple_html_dom/simple_html_dom.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-7762">
@@ -425,10 +441,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Crawer/Crawer.php">
+    <entry file="file://$PROJECT_DIR$/../Crawer/simple_html_dom/example/simple_html_dom_utility.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Crawer/Header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="20" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Crawer/Model/Abstract.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Crawer/Model/Xueqiu.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
-          <caret line="70" column="69" selection-start-line="70" selection-start-column="69" selection-end-line="70" selection-end-column="69" />
+          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Crawer/Model/Douban.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Crawer/Crawer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="107" column="36" selection-start-line="107" selection-start-column="30" selection-end-line="107" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Crawer/Config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
           <folding />
         </state>
       </provider>

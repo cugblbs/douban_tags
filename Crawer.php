@@ -8,6 +8,10 @@
  */
 include "Http.php";
 include "Header.php";
+include "Config.php";
+include "Model/Abstract.php";
+include "Model/Xueqiu.php";
+include "Model/Douban.php";
 include "simple_html_dom/simple_html_dom.php";
 
 class Crawer {
@@ -18,27 +22,10 @@ class Crawer {
      * @param string $url
      * @return string
      */
-    function _getUrlContent($url){
+    function _getUrlContent($url, Model_Abstract $model){
         if($url) {
-            $content = Helper_Http::get($url, Helper_Header::get());
-            $html = new simple_html_dom();
-            $html->load($content);
-            $ret = $html->find("ul li");
-            foreach ($ret as $index => $item) {
-                $text = $item->innertext;
-                if(strpos($text, '?tag=')) {
-                    $arr = explode('"', $text);
-                    $text = explode('=', $arr[1])[1];
-                    echo $text. PHP_EOL;
-                }
-                if(strpos($text, '/tag/')) {
-                    $text = explode('?', $text)[0];
-                    $arr = explode('"', urldecode($text));
-                    $text = explode('/', $arr[1])[4];
-                    if(empty($text)) continue;
-                    echo $text. PHP_EOL;
-                }
-            }
+            $content = Helper_Http::get($url, $model->header());
+            $model->process_html_content($content);
             return $content;
         }else{
             return false;
@@ -97,8 +84,8 @@ class Crawer {
      * @param string $url
      * @return array
      */
-    public function crawler($url){
-        $content = $this->_getUrlContent($url);
+    public function crawler($url, $model){
+        $content = $this->_getUrlContent($url, $model);
         if($content){
             $url_list = $this->_reviseUrl($url, $this->_filterUrl($content));
             if($url_list){
@@ -116,12 +103,19 @@ class Crawer {
      *
      */
     public function start(){
+        //$current_url = "https://xueqiu.com/";
         $current_url = "https://www.douban.com/tag/";
+        $model_name = Config::DOUBAN;
         $fp_puts = fopen("url.txt","ab");
         $fp_gets = fopen("url.txt","r");
+        $model = new $model_name();
+        if( !class_exists($model_name) && !$model instanceof Model_Abstract) {
+            echo 'Model not init~' . PHP_EOL;
+            exit;
+        }
         do {
             $current_url = trim($current_url);
-            $result_url_arr = $this->crawler($current_url);
+            $result_url_arr = $this->crawler($current_url, $model);
             if($result_url_arr){
                 foreach ($result_url_arr as $url) {
                     fputs($fp_puts, $url.PHP_EOL);
