@@ -8,7 +8,15 @@
 class Model_Xueqiu extends Model_Abstract {
 
     public function process_html_content($content) {
-            var_dump($content);exit;
+        $this->html->load($content);
+        $ret = $this->html->find('.current');
+        $titles = $this->html->find('h5');
+        foreach ($titles as $title) {
+            echo $title->innertext.PHP_EOL;
+        }
+        foreach ($ret as $e) {
+            echo $e->innertext.PHP_EOL;
+        }
     }
 
     public function header() {

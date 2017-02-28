@@ -103,9 +103,9 @@ class Crawer {
      *
      */
     public function start(){
-        //$current_url = "https://xueqiu.com/";
-        $current_url = "https://www.douban.com/tag/";
-        $model_name = Config::DOUBAN;
+        $current_url = "https://xueqiu.com/";
+        //$current_url = "https://www.douban.com/tag/";
+        $model_name = Config::XUEQIU;
         $fp_puts = fopen("url.txt","ab");
         $fp_gets = fopen("url.txt","r");
         $model = new $model_name();
