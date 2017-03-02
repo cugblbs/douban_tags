@@ -103,8 +103,7 @@ class Crawer {
      *
      */
     public function start(){
-        $current_url = "https://xueqiu.com/";
-        //$current_url = "https://www.douban.com/tag/";
+        $current_url = Config::START_URL;
         $model_name = Config::XUEQIU;
         $fp_puts = fopen("url.txt","ab");
         $fp_gets = fopen("url.txt","r");
